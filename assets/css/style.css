@@ -99,8 +99,14 @@ label {
     border: 4px solid gray;
 }
 
-.card img {
-    vertical-align: middle;
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .imagenes {
+    width: 120%;
 }
 
 
